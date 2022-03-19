@@ -62,7 +62,9 @@ const Home = (): JSX.Element => {
             </p>
             <div className="w-3/4 aspect-w-1 aspect-h-1 rounded-lg overflow-hidden sm:aspect-w-2 sm:aspect-h-3">
               <img
-                src="./gameRoom.png"
+                loading="lazy"
+                decoding="async"
+                src="./gameRoom.webp"
                 alt="arcade-game-lounge"
                 className="w-full h-full object-center object-cover"
               />
